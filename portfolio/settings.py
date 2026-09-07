@@ -121,6 +121,8 @@ STATICFILES_DIRS = [
     BASE_DIR / "static",
 ]
 
+STATIC_ROOT = BASE_DIR / "staticfiles"
+
 RESUME_URL = "/resume/"
 RESUME_ROOT = BASE_DIR / "resume"
 
